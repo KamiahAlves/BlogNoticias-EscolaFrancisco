@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.menuNav {
+  text-decoration: none;
+  color: #060836;
+  padding: 15px;
+  font-weight: 600;
+}
+.menuNav:hover {
+  text-decoration-style: underline;
+  background-color: #0a2855;
+  padding: 0.5rem 0.75rem;
+  color: #ffffff;
+  position: relative;
+  transition: color 0.25s;
+  border-radius: 10px;
+}
+button {
+  padding: 6px;
+  border-radius: 10px;
+  border: none;
+  color: #060836;
+  background-color: #e7ebf5;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fbfbfd;
+  line-height: 1.6;
+}
+.banner-noticias {
+  background-color: #0a2855;
+  height: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #f8f8f9;
+  padding: 60px 100px 100px 100px;
+  display: flex;
+  justify-content: space-around;
+}
+small {
+  padding-bottom: 10px;
+  font-weight: 200;
+  padding-top: 30px;
+}
+.icones {
+  padding: 10px;
+}
+.highlight {
+  color: #2c3e50;
+  font-weight: bold;
+}
+.important {
+  background-color: #dff0d8;
+  padding: 10px;
+  border-left: 5px solid #3c763d;
+  margin: 10px 0;
+}
+.success-story {
+  background-color: #f9f2f4;
+  padding: 10px;
+  border-left: 5px solid #ca4743;
+  margin: 10px 0;
+}
+.image-container {
+  text-align: center;
+  margin-top: -70px; /* Ajuste conforme necessário */
+  position: relative;
+  z-index: 1;
+}
+.portaoLeao {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.conteudo-principal{
+  background-color: #fcfcfd;
+  padding: 20px 100px 100px 100px;
+  margin-top: 10px; /* Ajuste conforme necessário */
+  position: relative;
+  z-index: 2;
+  font-size: 20px;
+}
+footer{
+	background-color: #ffffff;
+	width: 100%;
+	color: #060836;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	clear: both;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+  }
+  .copy{
+	text-align: center;
+	padding-top: 10px;
+  }
+  .rodape-extra{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+  }
+  .rodape-extra{
+	display: flex;
+	align-items: center;
+	align-content: space-around;
+  }
+  iframe{
+	border: 0;
+	
+  }
+  main{
+	background-color: #fbfbfd;
+
+  }
+  .destaqueParagrafo{
+	font-size: 25px;
+  }
+  h2{
+	color:#060836;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-weight: 800;
+	font-size: 50px;
+  }
+  .atv-fotos{
+	display: flex;
+	align-items: center;
+  }
+  .atv-fotos-edit{
+	padding: 10px;
+	border-radius: 20px;
+	height: 300px;
+  }
+
+  .wrapper {
+  max-width: 1100px;
+  width: 100%;
+  position: relative;
+}
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+  left: -22px;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 342px;
+  list-style: none;
+  background: #fff;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.carousel .card .img {
+  margin: 30px 0 5px;
+}
+.card .img img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border: 4px solid #fff;
+  border-radius: 20px;
+}
+.success-story {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.img-historia-sucesso {
+  height: 300px;
+  border-radius: 20px;
+  padding-left: 5px;
+}
+p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.highlight {
+  font-weight: bold;
+  color: #000;
+}
+.icones-efeito:hover{
+  transform: scale(1.5);
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* STYLE DO ARQUIVO DE NOTICIAS*/
+
+#news-container {
+  padding: 20px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-height: 200px; /* Initial height when collapsed */
+  transition: max-height 0.3s ease;
+}
+
+article img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.article-content {
+  flex: 1;
+}
+
+.article-content h2 {
+  margin-top: 0;
+}
+
+.article-content p {
+  line-height: 1.6;
+}
+
+.article-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-matricula{
+  text-decoration-style: underline;
+  background-color: #0a2855;
+  padding: 0.5rem 0.75rem;
+  color: #ffffff;
+  position: relative;
+  transition: color 0.25s;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.expand{
+  text-decoration-style: underline;
+  background-color: #0a2855;
+  padding: 0.5rem 0.75rem;
+  color: #ffffff;
+  position: relative;
+  transition: color 0.25s;
+  border-radius: 10px;
+  font-weight: 600;
+}

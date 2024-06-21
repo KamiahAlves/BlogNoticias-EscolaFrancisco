@@ -1,0 +1,60 @@
+
+/* STYLE DO ARQUIVO DE NOTICIAS*/
+
+#news-container {
+	padding: 20px;
+  }
+  
+  article {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	max-height: 200px; /* Initial height when collapsed */
+	transition: max-height 0.3s ease;
+  }
+  
+  article img {
+	max-width: 150px;
+	height: auto;
+	border-radius: 8px;
+	margin-right: 20px;
+  }
+  
+  .article-content {
+	flex: 1;
+  }
+  
+  .article-content h2 {
+	margin-top: 0;
+  }
+  
+  .article-content p {
+	line-height: 1.6;
+  }
+  
+  .article-button {
+	display: flex;
+	justify-content: flex-end;
+  }
+
+button {
+    background-color: #5351a8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button.expand {
+    margin-top: 10px;
+}
