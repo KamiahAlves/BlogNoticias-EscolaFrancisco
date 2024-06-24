@@ -148,7 +148,7 @@ footer{
   }
 
   .wrapper {
-  max-width: 1100px;
+  max-width: 1300px;
   width: 100%;
   position: relative;
 }
@@ -160,7 +160,7 @@ footer{
   position: absolute;
   text-align: center;
   line-height: 50px;
-  background: #fff;
+  background: #f8f7f7;
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.23);
   transform: translateY(-50%);
@@ -266,36 +266,41 @@ p {
 
 /* STYLE DO ARQUIVO DE NOTICIAS*/
 
-#news-container {
+#container-noticias {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
   padding: 20px;
 }
 
 article {
   display: flex;
+  flex-direction: column;
   align-items: center;
   background-color: white;
-  margin-bottom: 20px;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  max-height: 200px; /* Initial height when collapsed */
-  transition: max-height 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-10px);
 }
 
 article img {
-  max-width: 150px;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
-  margin-right: 20px;
+  margin-bottom: 15px;
 }
 
 .article-content {
-  flex: 1;
+  text-align: center;
 }
 
 .article-content h2 {
-  margin-top: 0;
+  margin: 10px 0;
 }
 
 .article-content p {
@@ -303,26 +308,72 @@ article img {
 }
 
 .article-button {
+  margin-top: auto;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  width: 100%;
 }
-.btn-matricula{
-  text-decoration-style: underline;
+
+.expand {
   background-color: #0a2855;
-  padding: 0.5rem 0.75rem;
   color: #ffffff;
-  position: relative;
-  transition: color 0.25s;
-  border-radius: 10px;
-  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
-.expand{
-  text-decoration-style: underline;
-  background-color: #0a2855;
-  padding: 0.5rem 0.75rem;
-  color: #ffffff;
-  position: relative;
-  transition: color 0.25s;
-  border-radius: 10px;
-  font-weight: 600;
+
+.expand:hover {
+  background-color: #073a72;
+}
+h3{
+  color:#060836;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+/* STYLE Da NOTICIAS sobre lei de newton*/
+.noticia-leidenewton p{
+  font-size: 25px;
+}
+
+.especial-prof{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.prof-leticia-noticia{
+  padding-right: 10px;
+  border-radius: 20px;
+}
+.noticia-imagem-texto{
+  display: flex;
+  align-items: center;
+}
+.noticia-imagem-texto img{
+  padding: 15px;
+}
+.imagens-leidenewton{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+.imagens-leidenewton-img:hover{
+  transform: scale(1.2);
+  margin: 10px;
+}
+li{
+  list-style-type: none;
+}
+.testimonial {
+  font-style: italic;
+  margin: 15px 0;
+  border-left: 4px solid #2c3e50;
+  padding-left: 10px;
+}
+.jolita-img{
+  padding: 10px;
+  border-radius: 20px;
 }

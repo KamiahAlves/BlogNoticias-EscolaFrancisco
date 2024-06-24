@@ -1,5 +1,5 @@
-# Blog Escola Francisco - 🚧 em construção
+# Blog Escola Francisco - em andamento
 Projeto com os alunos da Escola Francisco
 
-![screencapture-127-0-0-1-5500-index-html-2024-06-21-13_51_57](https://github.com/KamiahAlves/BlogNoticias-EscolaFrancisco/assets/31547468/5f4d79e0-b36e-454e-93be-df88da32947a)
+![image](https://github.com/KamiahAlves/BlogEscolaFrancisco/assets/31547468/ed191044-ba9d-494e-bd11-5244827108c5)
 

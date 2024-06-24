@@ -1,26 +1,26 @@
 [
     {
-        "titulo": "Título da Notícia 1",
-        "conteudo": "Resumo da notícia 1. Esta é uma breve descrição do que aconteceu.",
-        "imagem": "https://s2.glbimg.com/S_LcgYz4Z3RgPFsHJeTmpp2eS8w=/1200x630/s.glbimg.com/jo/g1/f/original/2014/11/15/banana.jpg",
-        "conteudo_completo": "Conteúdo completo da notícia 1..."
+        "titulo": "Evento Escolar: Dia do Físico com Aulas Interativas",
+        "conteudo": "Em comemoração ao Dia do Físico, celebrado em 19 de maio, a professora Leticia Lopes organizou um evento especial para os alunos do ensino médio.",
+        "imagem": "/assets/img/noticias-leidenewton/prof-leticia.png",
+        "url": "diadofisico.html"
     },
     {
-        "titulo": "Título da Notícia 2",
-        "conteudo": "Resumo da notícia 2. Aqui estão mais detalhes sobre outro evento importante.",
-        "imagem": "/assets/img/file.png",
-        "conteudo_completo": "Conteúdo completo da notícia 2..."
+        "titulo": "Jolita Etelvino Amud: Uma Vida Dedicada à Educação e à Comunidade",
+        "conteudo": "Jolita Etelvino Amud continua a trabalhar incansavelmente para melhorar a educação na região. ",
+        "imagem": "/assets/img/noticias-jolita/jolita.png",
+        "url": "jolita.html"
     },
     {
-        "titulo": "Título da Notícia 3",
-        "conteudo": "Resumo da notícia 3. Finalmente, um resumo de outra notícia interessante.",
+        "titulo": "Interclasse de 2024, quem foi o campeão?",
+        "conteudo": "Após diversos jogos e muitos gols entre as salas da Escola Francisco Pereira, descobrimos o campeão da Interclasse de 2024",
         "imagem": "/assets/img/file.png",
-        "conteudo_completo": "Conteúdo completo da notícia 3..."
+        "url": "noticia3.html"
     },
     {
         "titulo": "Jogo de Futebol na Escola",
         "conteudo": "Resumo da notícia sobre o jogo de futebol. Os alunos participaram de um emocionante jogo.",
         "imagem": "/assets/img/file.png",
-        "conteudo_completo": "Conteúdo completo da notícia sobre o jogo de futebol na escola. Na última sexta-feira, os alunos da Escola Estadual participaram de um emocionante jogo de futebol. O evento contou com a participação de diversos times formados por alunos de diferentes séries. O jogo foi muito disputado e contou com a presença de familiares e amigos que torceram animadamente pelos seus times. No final, o time da 8ª série venceu por 3 a 2. Parabéns a todos os participantes!"
+        "url": "noticia4.html"
     }
 ]
