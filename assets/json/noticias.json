@@ -15,12 +15,12 @@
         "titulo": "Interclasse de 2024, quem foi o campeão?",
         "conteudo": "Após diversos jogos e muitos gols entre as salas da Escola Francisco Pereira, descobrimos o campeão da Interclasse de 2024",
         "imagem": "/assets/img/file.png",
-        "url": "noticia3.html"
+        "url": "paginaDeErro.html"
     },
     {
-        "titulo": "Jogo de Futebol na Escola",
-        "conteudo": "Resumo da notícia sobre o jogo de futebol. Os alunos participaram de um emocionante jogo.",
-        "imagem": "/assets/img/file.png",
-        "url": "noticia4.html"
+        "titulo": "Visita a USP",
+        "conteudo": "Professora Adriana Venture leva alunas para conhecer o campus da USP e participar de palestras",
+        "imagem": "/assets/img/noticia-usp/usp.jfif",
+        "url": "paginaDeErro.html"
     }
 ]
